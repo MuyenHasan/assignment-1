@@ -65,4 +65,155 @@
     max-width: 244px;
     max-height:65px ;
   }
+  /* main part */
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+  }
+  .section-tittle{
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+  }
+  .section-description{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 0.7;
+    overflow-wrap:break-word;
+
+  }
+  .about{
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 74px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .card{
+    display: flex;
+    margin: 32px 97px;
+    border-radius: 10px;
+  }
+  .card-description{
+    text-align: left;
+    color: #0D1321;
+  }
+  .card-description h3{
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .card-description p{
+    opacity: 0.7;
+  }
+  .card-description button{
+    padding: 12px 20px 12px 20px;
+    
+    background: none;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .card-image{
+    max-width: 240px;
+    max-height: 240px;
+  }
+  .target-language{
+    display: flex;
+  }
+  .html{
+    background-color:#FF4C1E ;
+    padding: 40px;
+  }
+  .css{
+    background-color: #004CE8;
+    margin-left: 24px;
+    padding: 40px;
+  }
+  .js{
+    background-color: #FFDF00 ;
+    margin-left: 24px;
+    padding: 40px;
+  }
+
+
+  /* support style */
+  .support {
+    margin-top: 50px;
+    border-radius: 16px;
+    background-image: url('../images/handshake.jpg');
+    position: relative;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 48px;
+    width: 1140px;
+    box-sizing: border-box;
+  }
+  .feedback{
+    background-color: #FFFFFF;
+    max-width: 548px;
+    padding: auto;
+  }
+  .feedback-submit{
+    display: flex;
+    text-align: center;
+    
+  }
+  .btn-submit{
+    margin-left: 10px;
+    border: 1px solid #000;
+    background: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px 20px;
+    
+  }
+  
+
+  /*footer style*/
+  .an-open-commitment-by-awlad-hossain {
+    overflow-wrap: break-word;
+    
+    font-weight: 600;
+    font-size: 20px;
+    color: #0D1321;
+  }
+  .commit-by {
+    margin: 6.5px 0;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .github{
+    margin-left: 24px;
+  }
+  
+  .linkedin-icon {
+    margin-left: 24px;
+    margin-bottom: 0px;
+    display: flex;
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+  }
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    width: 157px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .commit {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 0;
+    width: 1440px;
+    box-sizing: border-box;
+    padding: 32px 150px;
+  }
   
